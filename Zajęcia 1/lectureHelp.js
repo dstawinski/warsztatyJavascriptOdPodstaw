@@ -3,8 +3,7 @@
  */
 
 // Instrukcje w jednej linii
-Instrukcja1;
-Instrukcja2;
+Instrukcja1;Instrukcja2;
 // Instrukcje w wielu liniach (preferowane)
 Instrukcja1;
 Instrukcja2;
@@ -89,10 +88,10 @@ const zmienna4 = Number();
 "2" == 2;
 "2" === 2;
 [2] == 2;
-[] + [];
+[] + []; ''
 [] == [];
 [] == ![];
-0.1 + 0.2 == 0.3;
+0.1 + 0.2 === 0.3;
 3 > 2 > 1;
 3 > 2 >= 1;
 "2" + 1;
@@ -153,9 +152,13 @@ function funkcja2(argument1) {
   alert(argument1);
 }
 
+funkcja2("CZESC");
+
 const dodaj = function(a, b) {
   return a + b;
 };
+
+const suma1 = dodaj(1,2);
 
 const dodaj3 = function dodaj3(a, b, c = 1) {
   const suma1 = dodaj(a, b);
