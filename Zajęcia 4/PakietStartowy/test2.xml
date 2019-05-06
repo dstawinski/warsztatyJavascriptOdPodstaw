@@ -1,3 +1,11 @@
 <ROOT>
-<TEXT> <t>TEST XML</t> </TEXT>
+  <TEXT>
+    <t>TEST XML</t>
+  </TEXT>
+  <TEXT>
+    <t>TEST XML</t>
+  </TEXT>
+  <TEXT>
+    <t>TEST XML</t>
+  </TEXT>
 </ROOT>
